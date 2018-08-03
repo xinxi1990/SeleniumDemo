@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+    <test name="testLogin">
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="loginTest"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="TestCase.TestCase_Login/>-->
+            <!--<class name="Model.LoginPage" />-->
+        <!--</classes>-->
+        <classes>
+            <class name="TestCase.TestCase_Login"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+TestCase1:
+    url: "https://bj.lianjia.com/"
+    serach: "keyword-box"
+    sendkey: "上地"
+    clickfind: "findHouse"
+    assertElement: "#trans_price_min"
+    home_ershoufang: "body > div.home-nav > ul > li:nth-child(1) > a > img"
+
+
+
+
+
+

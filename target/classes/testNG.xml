@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+
+    <!--<test name="Test" parallel="true">-->
+        <!--<classes>-->
+            <!--<class name="testSuite.DependTest">-->
+                <!--<methods>-->
+                <!--<include name="test_1" />-->
+                <!--</methods>-->
+            <!--&lt;!&ndash;<class name="testSuite.GroupTest"/>&ndash;&gt;-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <test name="testing">
+        <groups>
+            <run>
+                <include name="BVT"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testSuite.GroupTest" />
+            <class name="testSuite.EnableTest" />
+        </classes>
+    </test>
+
+</suite>

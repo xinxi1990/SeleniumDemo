@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="872" started-at="2018-07-22T07:42:12Z" finished-at="2018-07-22T07:42:12Z">
+    <groups>
+      <group name="BVT">
+        <method signature="EnableTest.test_1()[pri:0, instance:TestCase.EnableTest@96532d6]" name="test_1" class="testSuite.EnableTest"/>
+      </group> <!-- BVT -->
+    </groups>
+    <test name="SeleniumDemo" duration-ms="872" started-at="2018-07-22T07:42:12Z" finished-at="2018-07-22T07:42:12Z">
+      <class name="testSuite.EnableTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCase.EnableTest@96532d6]" name="before" is-config="true" duration-ms="27" started-at="2018-07-22T07:42:12Z" finished-at="2018-07-22T07:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test_1()[pri:0, instance:TestCase.EnableTest@96532d6]" name="test_1" duration-ms="1" started-at="2018-07-22T07:42:12Z" finished-at="2018-07-22T07:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="test_dataProvider(java.lang.String, java.lang.String)[pri:0, instance:TestCase.EnableTest@96532d6]" name="test_dataProvider" duration-ms="1" started-at="2018-07-22T07:42:12Z" data-provider="getData" finished-at="2018-07-22T07:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataProvider -->
+        <test-method status="PASS" signature="test_dataProvider(java.lang.String, java.lang.String)[pri:0, instance:TestCase.EnableTest@96532d6]" name="test_dataProvider" duration-ms="1" started-at="2018-07-22T07:42:12Z" data-provider="getData" finished-at="2018-07-22T07:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[age]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataProvider -->
+        <test-method status="PASS" signature="test_dataProvider_csv(java.lang.String, java.lang.String)[pri:0, instance:TestCase.EnableTest@96532d6]" name="test_dataProvider_csv" duration-ms="0" started-at="2018-07-22T07:42:12Z" data-provider="getData_csv" finished-at="2018-07-22T07:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mike]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataProvider_csv -->
+        <test-method status="PASS" signature="test_dataProvider_csv(java.lang.String, java.lang.String)[pri:0, instance:TestCase.EnableTest@96532d6]" name="test_dataProvider_csv" duration-ms="0" started-at="2018-07-22T07:42:12Z" data-provider="getData_csv" finished-at="2018-07-22T07:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Age]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataProvider_csv -->
+        <test-method status="PASS" signature="test_dataProvider_xlsx(java.lang.String, java.lang.String)[pri:0, instance:TestCase.EnableTest@96532d6]" name="test_dataProvider_xlsx" duration-ms="0" started-at="2018-07-22T07:42:12Z" data-provider="getData_xlsx" finished-at="2018-07-22T07:42:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Near]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataProvider_xlsx -->
+        <test-method status="PASS" signature="after()[pri:0, instance:TestCase.EnableTest@96532d6]" name="after" is-config="true" duration-ms="1" started-at="2018-07-22T07:42:12Z" finished-at="2018-07-22T07:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testSuite.EnableTest -->
+    </test> <!-- SeleniumDemo -->
+  </suite> <!-- Default Suite -->
+</testng-results>
